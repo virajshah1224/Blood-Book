@@ -1,0 +1,40 @@
+Project Details
+===============
+Project Name - Group 13
+Project ID - 30623
+
+Create a new repository
+=======================
+git clone https://git.cs.dal.ca/courses/2021-summer/csci-5308/group13.git
+cd group13
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+=======================
+cd existing_folder
+git init
+git remote add origin https://git.cs.dal.ca/courses/2021-summer/csci-5308/group13.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Push an existing Git repository
+===============================
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://git.cs.dal.ca/courses/2021-summer/csci-5308/group13.git
+git push -u origin --all
+git push -u origin --tags
+
+Group - 13 branching
+====================
+master
+    develop
+        dhrumil_amish_shah
+        dhrumil_rakesh_shah
+        dhruviben_shah
+        priya_arunkumar_savaliya
+        viraj_jigar_shah
